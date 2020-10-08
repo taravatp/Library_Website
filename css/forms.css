@@ -1,0 +1,53 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/iran-sans-500.woff);
+}
+
+input.file-upload {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    margin-bottom: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.custom-file-upload:hover {
+    background: #313A3D;
+    color: #fff;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+
+.card-header{
+    float: right;
+    font-size: 18px;
+}
+
+.selects{
+    margin-bottom: 16px;
+}
+
+.card-footer button{
+    color: white;
+    /*text-align: center;*/
+}
+
+.error{
+    color:red;
+}

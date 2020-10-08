@@ -1,0 +1,32 @@
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans;
+}
+
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/iran-sans-500.woff);
+}
+
+.insert{
+    text-align: right;
+    margin: 3% 0;
+}
+
+.card-header{
+    float: right;
+    font-size: 18px;
+}
+
+table{
+    text-align: center;
+}
+
+.delete-from{
+    display: inline;
+}
+
+a:hover{
+    text-decoration: none;
+}
